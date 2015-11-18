@@ -1,0 +1,80 @@
+/*---paremetros por defecto y sobrecarga de etiquetas----------*/
+html{
+    background-color: #3D535A;
+}
+label{
+    color: #D1D8D9;
+    font-family: 'Josefin Sans', sans-serif;
+}
+input{
+    color: #0C1D25;
+    font-family: 'Josefin Sans', sans-serif;
+}
+button{
+    font-family: 'Josefin Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+/*-------------------------------------------------------------*/
+
+/*---Clases para edicion de las plantillas---------------------*/
+.quitar-float{
+/*Anula los valores flotantes por defecto*/
+    float: none;
+    }
+.margen-superior{
+/*Da un espacio entre el grupo Div y el tope de el pargen*/
+    margin-top: 50px;
+}
+.transparencia{
+/*Le añade transparencia al fondo de un elemento*/    
+    background-color: transparent
+}
+/*---Modificacion de la barra de navegacion--------------------*/
+.pading-largo{
+    padding: 5px 10px;
+}
+.no-lista li{
+    list-style-type: none;
+}
+.no-lista{
+    margin: 0px;
+    padding: 0px;
+}
+.inline-block{
+/*elimina los formatos predefinidos por html5 para darle el aspecto deseado*/
+    float: none;
+    display: inline-block;
+    margin-right: -4px;
+}
+
+/*-------------------------------------------------------------*/
+/*-------------------------------------------------------------*/
+
+/*---Paleta de colores que manejare en mi proyecoto de prueba--*/
+.se-gris{
+    background-color: #8C8C8E;
+}
+.azulfuerte{
+    color: #0C1D25;
+}
+.azulmetalico{
+    color: #3D535A;
+}
+.azulgris{
+    color: #B1BDC1;
+}
+.gris{
+    color: #D1D8D9;
+}
+.grisfuerte{
+    color: #8C8C8E;
+}
+/*-------------------------------------------------------------*/
+
+/*---Fuentes para plantillas-----------------------------------*/
+.josefin-Sans{
+    font-family: 'Josefin Sans', sans-serif;
+}
+/*-------------------------------------------------------------*/
